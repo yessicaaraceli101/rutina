@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi rutina de Ejercicios</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+    <img src="assets/logo.jpg" alt="Logo" class="logo">
+
+    <h1>Mi rutina de Ejercicios</h1>
+    <p class="subtitle">
+        En el gym no solo levantás peso: levantás tu ánimo, tu disciplina y tu confianza.
+        Cada serie te hace un poco más fuerte por dentro y por fuera.
+    </p>
+</header>
+
+<section class="days-container">
+
+    <!-- TEMPLATE DAY CARD -->
+    
+<div class="day-card" onclick="toggleDay('lunes')">
+    <h2>Lunes - Glúteos:</h2>
+    <div id="lunes" class="hidden exercises">
+        
+<div class="exercise">
+    <img src="assets/glutera.jpg" alt="Pecho">
+    <p>1. Puente combinado con peso muerto unilateral.</p>
+</div>
+
+<div class="exercise">
+    <img src="assets/sentadilla.jfif" alt="Tríceps">
+    <p>2. Sentadilla invertida combinado con búlgara.</p>
+</div>
+
+<div class="exercise">
+    <img src="assets/triceps.jpg" alt="Tríceps">
+    <p>3. Caja.</p>
+</div>
+
+<div class="exercise">
+    <img src="assets/femoral.jpg" alt="Abdominales">
+    <p>4. Femoral acostada</p>
+</div>
+
+    </div>
+</div>
+
+<div class="day-card" onclick="toggleDay('martes')">
+    <h2>Martes - Espalda y bíceps:</h2>
+    <div id="martes" class="hidden exercises">
+        
+<div class="exercise">
+    <img src="assets/polea.jfif" alt="Espalda">
+    <p>1. Jalón frontal polea alta.</p>
+</div>
+
+<div class="exercise">
+    <img src="assets/remo.webp" alt="Bíceps">
+    <p>2. Remo agarre cerrado polea baja.</p>
+</div>
+
+<div class="exercise">
+    <img src="assets/barra.jfif" alt="Cardio">
+    <p>3. Remo con barra.</p>
+</div>
+
+<div class="exercise">
+    <img src="assets/neutro.jpg" alt="Cardio">
+    <p>4. Jalón en polea alta agarre neutro.</p>
+</div>
+
+<div class="exercise">
+    <img src="assets/biceps.webp" alt="Cardio">
+    <p>5. Bíceps 21.</p>
+</div>
+
+<div class="exercise">
+    <img src="assets/piolita.png" alt="Cardio">
+    <p>6. Bíceps martillo en polea.</p>
+</div>
+
+    </div>
+</div>
+
+<div class="day-card" onclick="toggleDay('miercoles')">
+    <h2>Miércoles - Cuádriceps</h2>
+    <div id="miercoles" class="hidden exercises">
+        
+<div class="exercise">
+    <img src="assets/HAK.jfif" alt="Piernas">
+    <p>1. Sentadillas hak combinado con desplantes unilaterales (mirando hacia el espejo)
+    </p>
+</div>
+
+<div class="exercise">
+    <img src="assets/PRENSA.jpg" alt="Glúteos">
+    <p>2. Prensa combinado con sentadillas sumo.</p>
+</div>
+
+<div class="exercise">
+    <img src="assets/extensión.webp" alt="Core">
+    <p>3. Extensión con descarga (10,8,6)</p>
+</div>
+
+<div class="exercise">
+    <img src="assets/femo.png" alt="Core">
+    <p>4. Izquios unilaterales o fermoral acostada.</p>
+</div>
+
+<div class="exercise">
+    <img src="assets/pantorrilla.jpg" alt="Core">
+    <p>5. Pantorrilla.</p>
+</div>
+
+    </div>
+</div>
+
+<div class="day-card" onclick="toggleDay('jueves')">
+    <h2>Jueves </h2>
+    <div id="jueves" class="hidden exercises">
+        
+<div class="exercise">
+    <img src="assets/IMG_20251023_180056.jpg" alt="Hombros">
+</div>
+
+<div class="exercise">
+    <img src="assets/IMG-20251023-WA0068.jpeg" alt="Pecho">
+</div>
+
+<div class="exercise">
+    <img src="assets/IMG-20251023-WA0070.jpeg" alt="Abdominales">
+</div>
+
+<div class="exercise">
+    <img src="assets/IMG-20251023-WA0072.jpeg" alt="Abdominales">
+</div>
+
+<div class="exercise">
+    <img src="assets/IMG-20251023-WA0075.jpeg" alt="Abdominales">
+</div>
+
+<div class="exercise">
+    <img src="assets/IMG-20251023-WA0077.jpeg" alt="Abdominales">
+</div>
+
+<div class="exercise">
+    <img src="assets/pioli.jpg" alt="Abdominales">
+</div>
+
+    </div>
+</div>
+
+<div class="day-card" onclick="toggleDay('viernes')">
+    <h2>Viernes - Inferior completo:</h2>
+    <div id="viernes" class="hidden exercises">
+        
+<div class="exercise">
+    <img src="assets/IMG-20251017-WA0053.jpeg" alt="Espalda">
+    <strong>Primer ejercicio.</strong>
+</div>
+
+<div class="exercise">
+    <img src="assets/IMG-20251017-WA0055.jpeg" alt="Bíceps">
+    <strong>Segundo ejercicio.</strong>
+</div>
+
+<div class="exercise">
+    <img src="assets/IMG-20251017-WA0059.jpeg" alt="Cardio">
+    <strong>Tercer ejercicio - combinado con sumo.<strong>
+</div>
+
+<div class="exercise">
+    <img src="assets/sentadi.jfif" alt="Cardio">
+    <strong>Cuarto ejercicio - Sentadilla invertida.<strong>
+</div>
+</div>
+</div>
+
+<div class="day-card" onclick="toggleDay('sabado')">
+    <h2>Sabado - Funcional</h2>
+    <div id="sabado" class="hidden exercises">
+        
+<div class="exercise">
+    <img src="assets/IMG_20250927_175452.jpg" alt="Piernas">
+</div>
+
+    </div>
+</div>
+
+
+</section>
+
+<section class="contact">
+    <h2>Enviar mensaje a Flor</h2>
+
+    <form onsubmit="sendWhatsApp(event)">
+        <input id='name' type="text" placeholder="Tu nombre" required>
+        <textarea id='msg' placeholder="Escribe tu mensaje..." required></textarea>
+        <button type="submit">Enviar por WhatsApp</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2025 IMPACTO GYM</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

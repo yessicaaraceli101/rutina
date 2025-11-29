@@ -1,0 +1,116 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f6f2f3;
+}
+header {
+    background: #7a0026;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+.subtitle {
+    margin-top: 5px;
+    font-size: 16px;
+    opacity: 0.9;
+}
+.days-container {
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+}
+.day-card {
+    background: white;
+    padding: 20px;
+    border-left: 8px solid #7a0026;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    cursor: pointer;
+    transition: .2s;
+}
+.day-card:hover {
+    transform: scale(1.01);
+}
+.exercises {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+.exercise {
+    background: #fff3f6;
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.exercise img {
+    width: 100%;
+    border-radius: 10px;
+}
+.contact {
+    background: white;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
+.contact h2 {
+    margin-top: 0;
+    color: #7a0026;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.contact input, .contact textarea {
+    padding: 12px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.contact button {
+    background: #7a0026;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #7a0026;
+    color: white;
+    margin-top: 30px;
+    font-size: 14px;
+}
+.hidden {
+    display: none;
+}
+
+.contact button {
+    background: #25D366; /* Verde WhatsApp */
+    color: white;        /* Texto blanco */
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.contact button:hover {
+    background: #1ebe5c; /* Verde más oscuro al pasar el mouse */
+    transform: scale(1.03);
+}
+
+.logo {
+    width: 120px;        /* podés cambiar el tamaño */
+    display: block;
+    margin: 0 auto 15px auto; /* centra + espacio inferior */
+}
