@@ -114,3 +114,28 @@ footer {
     display: block;
     margin: 0 auto 15px auto; /* centra + espacio inferior */
 }
+
+.subtitle {
+    text-align: justify;
+}
+.subtitle {
+    width: 80%;              /* Ajusta el ancho como quieras */
+    margin: 0 auto;          /* Centra el bloque */
+    text-align: justify;     /* Justifica el texto */
+}
+
+.icono-click {
+    font-size: 28px;
+    margin-left: 8px;
+}
+
+.click-h2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;         /* espacio entre texto e ícono */
+}
+
+.icono-click {
+    width: 28px;      /* tamaño del icono */
+    height: auto;
+}
